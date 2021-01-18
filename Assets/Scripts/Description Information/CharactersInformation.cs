@@ -24,12 +24,14 @@ public class InformationChars
     public string EnglishName;
     public string SpanishDescription;
     public string EnglishDescription;
-    public InformationChars(string _InputID , string _InspanishName, string _InEnglishName, string _InSpanishDescription , string _InEnglishDescription)
+    public Sprite Art;
+    public InformationChars(string _InputID , string _InspanishName, string _InEnglishName, string _InSpanishDescription , string _InEnglishDescription, Sprite _Art)
     {
         IDInformationRow    = _InputID;
         SpanishName         = _InspanishName;
         EnglishName         = _InEnglishName;
         SpanishDescription  = _InSpanishDescription;
         EnglishDescription  = _InEnglishDescription;
+        Art = _Art;
     }
 }
